@@ -1,0 +1,22 @@
+html, body, main {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+canvas { 
+  width: 100vmin;
+  height: 100vmin;
+  max-width: 100vmin;
+  max-height: 100vmin;
+  background-color: white;
+  image-rendering: pixelated;
+}
