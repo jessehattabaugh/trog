@@ -4,7 +4,8 @@
   "description": "a game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo src/main.js:www/index.js --host $IP --port $PORT"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jessehattabaugh/trog/issues"
   },
-  "homepage": "https://github.com/jessehattabaugh/trog#readme"
+  "homepage": "https://github.com/jessehattabaugh/trog#readme",
+  "devDependencies": {
+    "budo": "^8.2.1"
+  }
 }
